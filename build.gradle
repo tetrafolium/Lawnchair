@@ -51,7 +51,7 @@ android {
         }
     }
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 24
         targetSdkVersion 28
 
         if (ciBuild) {
@@ -133,6 +133,7 @@ android {
     }
 
     lintOptions {
+        abortOnError false
         checkReleaseBuilds false
     }
 
