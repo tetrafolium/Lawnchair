@@ -1,4 +1,6 @@
 # tractrix/codelift-plugins#1308
 ---
 inspecode:
-  android-lint: default
+  android-lint:
+    options:
+      --build-variant: QuickstepLawnchairCiDebug
